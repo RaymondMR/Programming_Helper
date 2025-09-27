@@ -1,0 +1,34 @@
+1.-Initiate a new Laravel Project
+Option A.- Create an empty folder and, jump to that folder, that cd to that folder
+           (the folder name would be the Project name)
+	   Command: composer create-project laravel/laravel .
+		    php artisan serve (To start the server)
+		    
+
+
+Option B.- Create an empty folder  and, jump to that folder, that cd to that folder
+
+
+2.-Setup and configure de Database
+2a.-Create a root user
+2b.-create a new user
+2c.-Create a new schema o database
+
+3.-Create a View:
+   views/example-view.blade.php
+
+4.-Make the route for that View
+   routes/web.php
+
+5.-Make the controller for the route and view
+   command: php artisan make:controller ControllerName
+
+
+
+
+
+
+
+	   
+
+
