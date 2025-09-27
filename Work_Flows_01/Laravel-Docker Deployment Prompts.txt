@@ -1,0 +1,7 @@
+Explain to me in detail, the necessary steps, in a beginner-friendly manner, for a deployment in production mode of a Laravel projet using Docker and Docker compose, with  PostgreSQL as the Database, and nginx as the server,
+The goal is to deploy it in a Digital Ocean droplet
+
+
+
+Find me a tutorial on YouTube that explains it to me in detail, the necessary steps, in a beginner-friendly manner, for a deployment in production mode of a Laravel projet using Docker and Docker compose, with  PostgreSQL as the Database, and nginx as the server,
+The goal is to deploy it in a Digital Ocean droplet
