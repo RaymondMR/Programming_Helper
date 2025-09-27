@@ -5,6 +5,8 @@
 > **Stack:** Ubuntu (DigitalOcean Droplet) · Docker + Docker Compose · PHP-FPM · Nginx · PostgreSQL · optional Redis  
 > **Outcome:** Your app runs at `https://your-domain.com` on a VPS with persistent database storage and a straightforward update process.
 
+#source: https://chatgpt.com/g/g-p-68d0af7a431c8191927747e5f0a56bb0-laravel/c/68d8527c-cc28-8328-867a-430aa53e8484
+
 ---
 
 ## 0) What you’ll build (high-level)

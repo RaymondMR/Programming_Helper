@@ -1,7 +1,27 @@
 Explain to me in detail, the necessary steps, in a beginner-friendly manner, for a deployment in production mode of a Laravel projet using Docker and Docker compose, with  PostgreSQL as the Database, and nginx as the server,
-The goal is to deploy it in a Digital Ocean droplet
+The goal is to deploy it in a DigitalOcean Droplet virtual private server (VPS) running Ubuntu, and generate a downloadable workflow.md document containing the procedure
 
 
 
 Find me a tutorial on YouTube that explains it to me in detail, the necessary steps, in a beginner-friendly manner, for a deployment in production mode of a Laravel projet using Docker and Docker compose, with  PostgreSQL as the Database, and nginx as the server,
-The goal is to deploy it in a Digital Ocean droplet
+The goal is to deploy it in a DigitalOcean Droplet virtual private server (VPS) running Ubuntu, and generate a downloadable PDF document containing the procedure
+
+
+
+generate a workflow in detail, with the necessary steps, in a beginner-friendly manner, for a deployment in production mode of a Laravel projet using Docker and Docker compose, with  PostgreSQL as the Database, and nginx as the server,
+The goal is to deploy it in a DigitalOcean Droplet virtual private server (VPS) running Ubuntu, and generate a downloadable PDF document containing the procedure
+
+https://chat.deepseek.com/a/chat/s/dad474cc-10e5-49ef-8868-d7ace3a17d49
+
+https://chatgpt.com/g/g-p-68d0af7a431c8191927747e5f0a56bb0-laravel/c/68d8527c-cc28-8328-867a-430aa53e8484
+
+
+Digital Ocean GradientTM AI Platform
+
+CONTEXT: Windows 11 Console
+Este comando de la consola de Windows, me arroja errores:
+C:\Windows\System32>dockercompose --version
+"dockercompose" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+como corregirlos ?
