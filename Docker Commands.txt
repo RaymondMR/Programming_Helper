@@ -1,0 +1,8 @@
+Docker Commands:
+Building images:
+docker build -t {image-name} {Dockerfile_location}
+example:
+docker build -t hello-docker .
+
+Listing Images:
+docker image ls
