@@ -1,0 +1,10 @@
+# Antes de conectar a PostgreSQL
+chcp 1252
+
+psql -h localhost -p 5432 -U postgres -d postgres
+
+C:\Program Files\PostgreSQL\18\bin
+
+como cambiar la contraseña al Superuser: postgre ? con psql
+
+ALTER USER postgres WITH PASSWORD 'Pita0868';

@@ -25,3 +25,6 @@ C:\Windows\System32>dockercompose --version
 programa o archivo por lotes ejecutable.
 
 como corregirlos ?
+
+
+Antes en Windows 10, cuando hacías click en el botón inicio aparecía en la izquierda una lista de programas, por ejemplo me aparecía una carpeta de PostgreSQL con todos los programas relacionados, hoy en Windows 11 no aparece y por ejemplo no se cuales programas de PostgreSQL están instalados, como solucionarlo ?
