@@ -7,4 +7,26 @@ C:\Program Files\PostgreSQL\18\bin
 
 como cambiar la contraseña al Superuser: postgre ? con psql
 
-ALTER USER postgres WITH PASSWORD 'Pita0868';
+ALTER USER postgres WITH PASSWORD 'secure password';
+
+CREATE USER rmr_admin01 WITH PASSWORD 'password' SUPERUSER;
+
+Ya cree el user rmr_admin01 como SUPERUSER
+CREATE USER rmr_admin01 WITH PASSWORD 'password' SUPERUSER;
+
+pero cuando pgAdimin 4 doy click en Login/Gropu Roles, aparece la opción de que este usuarion no puede crear databases ?
+
+psql -h localhost -p 5432 -U admin01 -d postgres
+
+asegurarse de que Docker-desktop se esta ejecutando, esta corriendo:
+
+Crear un volumen:
+docker volume create postgres-data
+
+Docker commands for running PostgreSQL:
+docker run --name some-postgres -e POSTGRES_PASSWORD=secretpassword0868 -p 5431:5432 -v postgres-data:/var/lib/postgresql/data -d postgres
+
+Ejecutar psql en el container interactivamnete:
+docker exec -it some-postgres psql -U postgres
+
+
