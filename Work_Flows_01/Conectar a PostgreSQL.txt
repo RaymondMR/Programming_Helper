@@ -17,6 +17,10 @@ CREATE USER rmr_admin01 WITH PASSWORD 'password' SUPERUSER;
 pero cuando pgAdimin 4 doy click en Login/Gropu Roles, aparece la opción de que este usuarion no puede crear databases ?
 
 psql -h localhost -p 5432 -U admin01 -d postgres
+psql -h localhost -p 5432 -U rmr_admin01 -d postgres
+
+
+Source01: https://www.youtube.com/watch?v=Hs9Fh1fr5s8
 
 asegurarse de que Docker-desktop se esta ejecutando, esta corriendo:
 
@@ -29,4 +33,42 @@ docker run --name some-postgres -e POSTGRES_PASSWORD=secretpassword0868 -p 5431:
 Ejecutar psql en el container interactivamnete:
 docker exec -it some-postgres psql -U postgres
 
+Source02: https://www.youtube.com/watch?v=ncuiT924aqg
 
+C:\Users\MONCHO\Documents\Laravel Projects\youtube-laravel-demo
+
+Me conecte a la base de datos PostgreSQL, con este comando: psql -h localhost -p 5432 -U rmr_admin01 -d postgres
+y ya me aparece el prompt de PostgreSQL:
+
+postgres=# 
+ 
+A partir de ahí, crea un nueva base de datos o esquema llamado: YouTube_Database
+
+
+I already connected to the PostgreSQL database with this command: psql -h localhost -p 5432 -U rmr_admin01 -d postgres
+and the PostgreSQL prompt appears:
+
+postgres=#
+
+From there, create a new database or schema called: YouTube_Database
+
+Ya cree la Database y actualize los archicos:.\youtube-laravel-demo\config\database.php  y .env, y ahora como se corre el comando Regresh ?
+
+284.070257764344
+
+database.php
+'default' => env('DB_CONNECTION', 'pgsql'),
+
+.env
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=YouTube_Database
+DB_USERNAME=rmr_admin01
+DB_PASSWORD=Pita0868
+
+Ya funcionó, efectivamente faltaba ejecutar: npm run dev
+
+Ahora quiero que este proyecto, funcione dentro de un contenedor Docker, en modo produccion, guiame paso a paso, hagamos el proceso paso a paso, creo que primero es ecribir los archivo Dockerfile y docker-compose.yaml, cierto ?
+
+Now I want this project to work inside a Docker container, in production mode, so, guide me step by step, let's do the process step by step, I think the first thing is to write the Dockerfile and docker-compose.yaml files, right?
